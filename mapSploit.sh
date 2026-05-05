@@ -41,9 +41,15 @@ if [ -z "${hotes}" ]; then
     exit 1
 fi
 
+# Chemin du fichier
+dir=$(pwd)
+
 # Recupere les info de l'appareil
 echo " "
 for hote in ${hotes}; do
    	echo "📡 ${hote}"
    	msfconsole -q -x "use auxiliary/scanner/snmp/snmp_enum; set RHOSTS ${hote}; set verbose true; run; exit" > "${hote}-snmp.txt"
 done
+
+echo " "
+echo -e "${VERT}[+]${RESET} Info SNMP --> "${dir}"/mapSploit"
