@@ -48,7 +48,7 @@ dir=$(pwd)
 echo " "
 for hote in ${hotes}; do
    	echo "📡 ${hote}"
-   	msfconsole -q -x "use auxiliary/scanner/snmp/snmp_enum; set RHOSTS ${hote}; set verbose true; run; exit" > "${hote}-snmp.txt"
+   	msfconsole -q -x "use auxiliary/scanner/snmp/snmp_enum; set RHOSTS ${hote}; set verbose true; run; exit" > "${dir}/mapSploit/${hote}-snmp.txt"
 done
 
 echo " "
