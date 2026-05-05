@@ -17,8 +17,7 @@ Outils:
 
 ```
 ┌─[m0rph3u5@parrot]─[~/Desktop]
-└──╼ $sudo ./mapSploit.sh
-[sudo] Mot de passe de m0rph3u5 : 
+└──╼ $sudo ./mapSploit.sh 
   
 eee......eee..eeeeee..eeeeeee...eeeeee.eeeeeee..eee.....eeeeee..eee.eeeeeeeee.
 @@@@::::@@@@:@@@@@@@@:@@@@@@@@:@@@@@@@:@@@@@@@@:@@@::::@@@@@@@@:@@@:@@@@@@@@@:
