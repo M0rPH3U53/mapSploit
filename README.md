@@ -17,7 +17,7 @@ Outils:
 
 ```
 ┌─[m0rph3u5@parrot]─[~/Desktop]
-└──╼ $sudo ./masSploit.sh
+└──╼ $sudo ./mapSploit.sh
   
                                       █████████            ████            ███   █████   
                                      ███▒▒▒▒▒███          ▒▒███           ▒▒▒   ▒▒███    
@@ -32,9 +32,11 @@ Outils:
                           ▒▒▒▒▒                 ▒▒▒▒▒                                    
 
 by M0rPH3U53
- 
+      
 🔍 Scan SNMP...100%
  
 📡 192.168.56.1
 📡 192.168.56.254
+ 
+[+] Info SNMP --> /home/m0rph3u5/Desktop/mapSploit
 ```
