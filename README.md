@@ -5,7 +5,7 @@ Outils:
 
 👁️ nmap
 
-📥 metasploit
+💥 metasploit
 
 ## 🛠️ Outils
 
