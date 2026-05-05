@@ -1,11 +1,11 @@
 # mapSploit
 
 
-Outils:
+Automatisation de la decouverte des appareil SNMP
 
-👁️ nmap
+👁️ nmap --> https://nmap.org
 
-💥 metasploit
+💥 metasploit --> https://www.metasploit.com
 
 ## 🛠️ Outils
 
