@@ -1,5 +1,4 @@
-# <img width="1024" height="1536" alt="merlin" src="https://github.com/user-attachments/assets/13c86e86-24d9-4707-a14f-d986c93e3a96" />
-
+# <img width="1016" height="1254" alt="merlin (1)" src="https://github.com/user-attachments/assets/96824b55-3bc0-4d29-9b5d-edaa9c7ada0c" />
 
 Automatisation de la decouverte des appareil SNMP
 
