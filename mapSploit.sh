@@ -25,7 +25,7 @@ RESET='\033[0m'
 BLANC='\033[1;37m'
 JAUNE='\033[0;33m'
 
-# Cree le dossier pourfichiers SNMP
+# Créé dossier pour fichiers SNMP
 mkdir -p mapSploit
 
 # Recupere adresse réseau + CIDR
