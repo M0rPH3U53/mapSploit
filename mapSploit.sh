@@ -25,15 +25,26 @@ RESET='\033[0m'
 BLANC='\033[1;37m'
 JAUNE='\033[0;33m'
 
-# Créé dossier pour fichiers SNMP
+# Cree le dossier pour fichiers SNMP
 mkdir -p mapSploit
 
 # Recupere adresse réseau + CIDR
-IP=$(ip route show | grep -E '^[0-9]' |sed -n '2p' | awk '{print $1}')
+IP=$(ip route show | grep -E '^[0-9]' | awk '{print $1}')
+
+echo " "
+echo -e "${VERT}[+]${RESET} ${BLANC}Réseau disponible${RESET} "
+echo " "
+echo "${IP}"
+echo " "
+
+# Interface réseau
+echo -ne "${BLEU}[i]${RESET} ${BLANC}Network:${RESET} "
+read CIDR
 
 # Découverte réseau d'appareil SNMP
+echo " "
 echo -ne "🔍 ${BLANC}Scan SNMP${RESET}..."
-hotes=$(nmap -sU -p 161 --open ${IP} -oG - | grep "161/" | awk '{print $2}')
+hotes=$(nmap -sU -p 161 --open ${CIDR} -oG - | grep "161/" | awk '{print $2}')
 echo -e "${JAUNE}100%${RESET}"
 
 # Verifie si la variable est vide
