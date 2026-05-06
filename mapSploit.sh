@@ -26,7 +26,7 @@ BLANC='\033[1;37m'
 JAUNE='\033[0;33m'
 
 # Cree le dossier pourfichiers SNMP
-mkdir -p mapSploit
+#mkdir -p mapSploit
 
 # Recupere adresse réseau + CIDR
 #IP=$(ip route show | grep -E '^[0-9]' | head -1 | awk '{print $1}')
@@ -48,11 +48,14 @@ fi
 dir=$(pwd)
 
 echo " "
+echo -e "${VERT}[+]${RESET} ${BLANC}Hotes${RESET}"
+echo " "
+
 # Recupere les info de l'appareil
 for hote in ${hotes}; do
-   	echo "📡 ${hote}"
+   	echo "📡 ${hote} --> ${hote}-snmp.txt"
    	msfconsole -q -x "use auxiliary/scanner/snmp/snmp_enum; set RHOSTS ${hote}; set verbose true; run; exit" > "${dir}/mapSploit/${hote}-snmp.txt"
 done
 
 echo " "
-echo -e "${VERT}[+]${RESET} Info SNMP --> "${dir}"/mapSploit"
+echo -e "${VERT}[+]${RESET} Sauvegardé --> "${dir}"/mapSploit"
