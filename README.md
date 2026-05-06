@@ -16,7 +16,7 @@ Automatisation de la decouverte des appareil SNMP
 
 ```
 ┌─[m0rph3u5@parrot]─[~/Desktop]
-└──╼ $sudo ./mapSploit.sh 
+└──╼ $sudo ./mapSploit.sh
   
 eee......eee..eeeeee..eeeeeee...eeeeee.eeeeeee..eee.....eeeeee..eee.eeeeeeeee.
 @@@@::::@@@@:@@@@@@@@:@@@@@@@@:@@@@@@@:@@@@@@@@:@@@::::@@@@@@@@:@@@:@@@@@@@@@:
@@ -32,8 +32,10 @@ by M0rPH3U53
       
 🔍 Scan SNMP...100%
  
-📡 192.168.56.1
-📡 192.168.56.254
+[+] Hotes
  
-[+] Info SNMP --> /home/m0rph3u5/Desktop/mapSploit
+📡 192.168.56.1 --> 192.168.56.1-snmp.txt
+📡 192.168.56.254 --> 192.168.56.254-snmp.txt
+ 
+[+] Sauvegardé --> /home/m0rph3u5/Desktop/mapSploit
 ```
