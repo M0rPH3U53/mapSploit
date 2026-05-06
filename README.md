@@ -32,12 +32,19 @@ eee......eee..eeeeee..eeeeeee...eeeeee.eeeeeee..eee.....eeeeee..eee.eeeeeeeee.
 
 by M0rPH3U53
       
+ 
+[+] Réseau disponible 
+ 
+10.0.3.0/24
+192.168.56.0/24
+ 
+[i] Network: 192.168.56.0/24
+ 
 🔍 Scan SNMP...100%
  
 [+] Hotes
  
 📡 192.168.56.1 --> 192.168.56.1-snmp.txt
-📡 192.168.56.254 --> 192.168.56.254-snmp.txt
  
 [+] Sauvegardé --> /home/m0rph3u5/Desktop/mapSploit
 ```
