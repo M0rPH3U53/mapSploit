@@ -44,6 +44,7 @@ by M0rPH3U53
 [+] Hotes
  
 📡 192.168.56.1 --> 192.168.56.1-snmp.txt
+📡 192.168.56.254 --> 192.168.56.254-snmp.txt
  
 [+] Sauvegardé --> /home/m0rph3u5/Desktop/mapSploit
 ```
