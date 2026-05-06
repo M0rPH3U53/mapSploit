@@ -26,11 +26,9 @@ BLANC='\033[1;37m'
 JAUNE='\033[0;33m'
 
 # Cree le dossier pourfichiers SNMP
-#mkdir -p mapSploit
+mkdir -p mapSploit
 
 # Recupere adresse réseau + CIDR
-#IP=$(ip route show | grep -E '^[0-9]' | head -1 | awk '{print $1}')
-
 IP=$(ip route show | grep -E '^[0-9]' |sed -n '2p' | awk '{print $1}')
 
 # Découverte réseau d'appareil SNMP
