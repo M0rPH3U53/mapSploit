@@ -29,7 +29,7 @@ JAUNE='\033[0;33m'
 mkdir -p mapSploit
 
 # Recupere adresse réseau + CIDR
-IP=$(ip route show | grep -E '^[0-9]' | awk '{print $1}')
+IP=$(ip route | grep -E '^[0-9]' | awk '{print $1}')
 
 echo " "
 echo -e "${VERT}[+]${RESET} ${BLANC}Réseau disponible${RESET} "
