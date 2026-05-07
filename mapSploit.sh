@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Banniere
 cat <<"EOF"
   
 eee......eee..eeeeee..eeeeeee...eeeeee.eeeeeee..eee.....eeeeee..eee.eeeeeeeee.
