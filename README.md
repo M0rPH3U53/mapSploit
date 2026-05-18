@@ -14,7 +14,7 @@ Automatisation de la decouverte des appareil SNMP
 
 ```
 ┌─[m0rph3u5@parrot]─[~]  
-└──╼ $sudo apt install nmap metasploit fonts-noto-color-emoji
+└──╼ $sudo apt install nmap metasploit-framework fonts-noto-color-emoji
 ```
 ## 👁️ Demo
 
