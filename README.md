@@ -52,7 +52,7 @@ by M0rPH3U53
  
 [+] Sauvegardé --> /home/m0rph3u5/Desktop/mapSploit
 ```
-## Info recupéré
+## ℹ️ Info recupéré
 ```
 ┌─[m0rph3u5@parrot]─[~/Desktop/mapSploit]
 └──╼ $cat 192.168.56.254-snmp.txt
