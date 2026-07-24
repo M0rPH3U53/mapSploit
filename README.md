@@ -67,7 +67,7 @@ Contact                       : -
 Location                      : -
 Uptime snmp                   : 1 day, 00:17:24.44
 Uptime system                 : 5 days, 06:15:40.40
-System date                   : 2026-6-10 14:13:20.0
+System date                   : 2026-6-10 17:13:20.0
 
 [*] Network information:
 
