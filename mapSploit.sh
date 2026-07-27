@@ -42,6 +42,10 @@ echo " "
 echo -ne "${BLEU}[i]${RESET} ${BLANC}Network:${RESET} "
 read network
 
+# Version de SNMP
+echo -ne "${BLEU}[i]${RESET} ${BLANC}SNMPversion:${RESET} "
+read SNMPversion
+
 # Découverte réseau d'appareil SNMP
 echo " "
 echo -ne "🔍 ${BLANC}Scan SNMP${RESET}..."
@@ -64,7 +68,7 @@ echo " "
 # Recupere les info de l'appareil
 for hote in ${hotes}; do
    	echo "📡 ${hote} --> ${hote}-snmp.txt"
-   	msfconsole -q -x "use auxiliary/scanner/snmp/snmp_enum; set RHOSTS ${hote}; set verbose true; run; exit" > "${dir}/mapSploit/${hote}-snmp.txt"
+   	msfconsole -q -x "use auxiliary/scanner/snmp/snmp_enum; set RHOSTS ${hote}; set VERSION ${SNMPversion}; set verbose true; run; exit" > "${dir}/mapSploit/${hote}-snmp.txt"
 done
 
 echo " "
