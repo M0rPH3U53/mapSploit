@@ -43,7 +43,8 @@ by M0rPH3U53
 192.168.56.0/24
  
 [i] Network: 192.168.56.0/24
- 
+[i] SNMPversion: 1
+
 🔍 Scan SNMP...100%
  
 [+] Hotes
