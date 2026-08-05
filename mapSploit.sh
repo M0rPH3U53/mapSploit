@@ -45,7 +45,7 @@ read network
 # Découverte réseau d'appareil SNMP
 echo " "
 echo -ne "🔍 ${BLANC}Scan SNMP${RESET}..."
-hotes=$(nmap -sU -p 161 --open ${network} -oG - | grep "161/" | awk '{print $2}')
+hotes=$(nmap -sU -p 161 --open ${network} -oG - | grep "/open/udp" | awk '{print $2}')
 echo -e "${JAUNE}100%${RESET}"
 
 # Verifie si la variable est vide
