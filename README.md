@@ -13,7 +13,7 @@ Automatisation de la decouverte des appareil SNMP
 | <span style="color: #dddddd;">👁️</span> Nmap | https://nmap.org |
 | <span style="color: #dddddd;">💥</span> Metasploit | https://www.metasploit.com |
 
-## 🛠️ Outils
+## 🚀 Installation
 
 ```
 ┌─[m0rph3u5@parrot]─[~]  
